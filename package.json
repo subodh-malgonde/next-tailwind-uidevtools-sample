@@ -1,5 +1,5 @@
 {
-  "name": "next-ui-devtools-samples",
+  "name": "next-ui-devtools-sample",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,8 +8,12 @@
     "start": "next start"
   },
   "dependencies": {
+    "@ui-devtools/tailwind": "github:ui-devtools/tailwind",
+    "autoprefixer": "^9.8.6",
     "next": "9.5.5",
     "react": "17.0.0",
-    "react-dom": "17.0.0"
+    "react-dom": "17.0.0",
+    "sass": "^1.27.0",
+    "tailwindcss": "^1.9.5"
   }
 }
