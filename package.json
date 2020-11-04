@@ -8,12 +8,13 @@
     "start": "next start"
   },
   "dependencies": {
-    "@ui-devtools/tailwind": "github:ui-devtools/tailwind",
-    "autoprefixer": "^9.8.6",
-    "next": "9.5.5",
+    "next": "^10.0.0",
     "react": "17.0.0",
     "react-dom": "17.0.0",
-    "sass": "^1.27.0",
     "tailwindcss": "^1.9.5"
+  },
+  "devDependencies": {
+    "@ui-devtools/tailwind": "github:ui-devtools/tailwind#main",
+    "autoprefixer": "^9.8.6"
   }
 }

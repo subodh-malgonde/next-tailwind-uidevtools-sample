@@ -1,0 +1,10 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+.height-100vw{
+  height: calc( 100vw - 64px );
+}

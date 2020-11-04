@@ -1,3 +1,5 @@
+const { colors } = require('tailwindcss/defaultTheme')
+
 module.exports = {
   future: {
     removeDeprecatedGapUtilities: true,
@@ -5,9 +7,12 @@ module.exports = {
     defaultLineHeights: true,
     standardFontWeights: true
   },
-  purge: ['./styles/tailwind.scss','./src/components/**/*.{js,ts,jsx,tsx}', './pages/**/*.{js,ts,jsx,tsx}'],
+  purge: ['./tailwind.scss', './src/components/**/*.{js,ts,jsx,tsx}', './pages/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      screens: {
+        'xsm': '340px'
+      },
       colors: {
         blue: {
           '100': '#F7F9FC',
@@ -32,6 +37,7 @@ module.exports = {
           '900': '#6E2927',
         },
         green: {
+          ...colors.green,
           '600': '#27AE60',
         },
         gradientColorStops: {
@@ -39,7 +45,11 @@ module.exports = {
           'ending': '#1F49AD'
         },
         hover: "#1F49AD",
-        link: "#18A0FB"
+        link: "#18A0FB",
+      },
+      inset: {
+        '1/2': '50%',
+        '-8': '-2rem',
       }
     }
   },
