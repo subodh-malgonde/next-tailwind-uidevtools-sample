@@ -7,7 +7,7 @@ First install dependencies:
 ```
 yarn install
 ```
-**We are using yarn v1.22.0**
+**We are using yarn v1.22.10**
 
 Then, run the development server:
 

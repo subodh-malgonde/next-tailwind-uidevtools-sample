@@ -7,7 +7,7 @@ module.exports = {
     defaultLineHeights: true,
     standardFontWeights: true
   },
-  purge: ['./tailwind.scss', './src/components/**/*.{js,ts,jsx,tsx}', './pages/**/*.{js,ts,jsx,tsx}'],
+  purge: ['./styles/tailwind.css', './src/components/**/*.{js,ts,jsx,tsx}', './pages/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       screens: {
