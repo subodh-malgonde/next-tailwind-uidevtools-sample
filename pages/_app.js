@@ -1,4 +1,4 @@
-import '../styles/globals.scss'
+import '../styles/globals.css'
 import '@ui-devtools/tailwind'
 
 function MyApp({ Component, pageProps }) {

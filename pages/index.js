@@ -3,11 +3,11 @@ import styles from '../styles/Home.module.css'
 
 function Card(props){
   return (
-      <a href={props.link} className="p-6 border border-gray-300 hover:border-indigo-600 hover:text-indigo-600 rounded-xl">
-        <h3 className="mb-4 text-2xl">{props.title} &rarr;</h3>
-        <p className="text-xl leading-normal">{props.text}</p>
-      </a>
-  )
+    <a href={props.link} className="p-6 border border-gray-300 hover:border-indigo-600 hover:text-indigo-600 rounded-xl">
+      <h3 className="mb-4 text-2xl">{props.title} &rarr;</h3>
+      <p className="text-xl leading-normal">{props.text}</p>
+    </a>
+  );
 }
 
 export default function Home() {
